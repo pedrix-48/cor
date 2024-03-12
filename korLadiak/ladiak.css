@@ -4,14 +4,14 @@ body
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #bdb5b5
+    background-color: aqua
 }
 
 .sidebar
 {
     height: 100%;
     width: 250px;
-    background-color: #111;
+    background-color: #20fd0c;
     padding-top: 20px;
     position: fixed;
     transition: margin-left 1s ease;
@@ -29,7 +29,7 @@ body
 
 .sidebar a:hover
 {
-    background-color: #555;
+    background-color: #ff2424;
 }
 
 .sidebar h2
@@ -52,7 +52,7 @@ body
 
 .card
 {
-    background-color: rgb(95, 99, 102);
+    background-color: rgb(9, 255, 120);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(26, 25, 25, 0.623);
     padding: 16px;
@@ -62,7 +62,7 @@ body
 
 .card p
 {
-    color: #fffcfc;
+    color: #111;
 }
 .card h3
 {
@@ -75,7 +75,7 @@ body
 }
 .sec-card
 {
-    background-color: rgb(95, 99, 102);
+    background-color: gold;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(136, 122, 122, 0.1);
     padding: 30px;
