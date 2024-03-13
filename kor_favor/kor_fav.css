@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    background-image: url("../foto/bg.png");
+}
+
+.sidebar
+{
+    height: 100%;
+    width: 250px;
+    background-color: #111;
+    padding-top: 20px;
+    position: fixed;
+    transition: margin-left 1s ease;
+}
+
+.sidebar a
+{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover
+{
+    background-color: #555;
+}
+
+.sidebar h2
+{
+    color: white;
+    text-align: center;
+}
+
+.content-1
+{
+    margin-left: 250px;
+    padding: 10px;
+    transition: margin-left 1s ease;
+}
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(26, 25, 25, 0.623);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+.sec-card
+{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(136, 122, 122, 0.1);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    flex: 1 0;
+}
+.third-card
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.fr-card
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+
+
+
+
+
