@@ -2,9 +2,9 @@ body
 {
     font-family: 'Arial', sans-serif;
     margin: 0;
+    display: block;
     padding: 0;
-    display: flex;
-    background-color: #bdb5b5
+    background-image: url("../foto/bg.png");
 }
 
 .sidebar
@@ -38,7 +38,7 @@ body
     text-align: center;
 }
 
-.content
+.content-1
 {
     margin-left: 250px;
     padding: 10px;
@@ -52,33 +52,88 @@ body
 
 .card
 {
-    background-color: rgb(95, 99, 102);
+    background-color: rgb(252, 252, 252);
+    text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(26, 25, 25, 0.623);
-    padding: 16px;
-    margin: 16px;
-    flex: 1 0 calc(33.33% - 32px);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
 }
 
-.card p
-{
-    color: #fffcfc;
-}
-.card h3
-{
-    color: #5a5858;
-}
-
-.card 
-{
-    color: #555;
-}
 .sec-card
 {
-    background-color: rgb(95, 99, 102);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(136, 122, 122, 0.1);
     padding: 30px;
     margin: 20px;
+    width: 150px;
     flex: 1 0;
 }
+.third-card
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.fr-card
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+.fiv-card
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.six-card
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.sev-card
+{
+    background-color: green;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.ei-card
+{
+    background-color: blue;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+
+
+
