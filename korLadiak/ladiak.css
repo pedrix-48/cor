@@ -2,16 +2,16 @@ body
 {
     font-family: 'Arial', sans-serif;
     margin: 0;
+    display: block;
     padding: 0;
-    display: flex;
-    background-color: aqua
+    background-image: url("../foto/bg.png");
 }
 
 .sidebar
 {
     height: 100%;
     width: 250px;
-    background-color: #20fd0c;
+    background-color: #111;
     padding-top: 20px;
     position: fixed;
     transition: margin-left 1s ease;
@@ -29,7 +29,7 @@ body
 
 .sidebar a:hover
 {
-    background-color: #ff2424;
+    background-color: #555;
 }
 
 .sidebar h2
@@ -38,7 +38,7 @@ body
     text-align: center;
 }
 
-.content
+.content-1
 {
     margin-left: 250px;
     padding: 10px;
@@ -52,33 +52,88 @@ body
 
 .card
 {
-    background-color: rgb(9, 255, 120);
+    background-color: rgb(252, 252, 252);
+    text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(26, 25, 25, 0.623);
-    padding: 16px;
-    margin: 16px;
-    flex: 1 0 calc(33.33% - 32px);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
 }
 
-.card p
-{
-    color: #111;
-}
-.card h3
-{
-    color: #5a5858;
-}
-
-.card 
-{
-    color: #555;
-}
 .sec-card
 {
-    background-color: gold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(136, 122, 122, 0.1);
     padding: 30px;
     margin: 20px;
+    width: 150px;
     flex: 1 0;
 }
+.third-card
+{
+    background-color: black;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.fr-card
+{
+    background-color: blue;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+.fiv-card
+{
+    background-color: cyan;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.six-card
+{
+    background-color: magenta;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.sev-card
+{
+    background-color: cyan;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+.ei-card
+{
+    background-color: blue;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba();
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+}
+
+
+
+
